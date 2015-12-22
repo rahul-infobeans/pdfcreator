@@ -1,19 +1,20 @@
 {
-    "name": "rahul.nagar/composer",
-    "description": "My first composer to generate pdf",
-    "authors": [
-        {
-            "name": "Rahul Nagar",
-            "email": "rahul.nagar@infobeans.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "autoload": {
-        "psr-0": {
-            "PdfCreator": "src/"
-        }
-    }
+   "name": "rahul.nagar/composer",
+   "description": "My first composer test project",
+   "authors": [
+       {
+           "name": "Rahul Nagar",
+           "email": "rahul.nagar@infobeans.com"
+       }
+   ],
+   "minimum-stability": "dev",
+   "require": {
+       "php": ">=5.3.0",
+       "tecnickcom/tcpdf" : "master"
+   },
+   "autoload": {
+       "psr-0": {
+           "HelloWorld": "src/"
+       }
+   }
 }

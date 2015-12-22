@@ -1,6 +1,6 @@
 {
     "name": "rahul.nagar/composer",
-    "description": "My first composer test project",
+    "description": "My first composer to generate pdf",
     "authors": [
         {
             "name": "Rahul Nagar",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "HelloWorld": "src/"
+            "PdfCreator": "src/"
         }
     }
 }
